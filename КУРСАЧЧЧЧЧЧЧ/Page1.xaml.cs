@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,6 +21,8 @@ namespace КУРСАЧЧЧЧЧЧЧ
     /// </summary>
     public partial class Page1 : Page
     {
+
+
         public Page1()
         {
             InitializeComponent();
@@ -32,7 +35,14 @@ namespace КУРСАЧЧЧЧЧЧЧ
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
 
+
+        private void AccountButton_Click(object sender, RoutedEventArgs e)
+        {
+            Account accountPage = new Account();
+            NavigationService.Navigate(accountPage);
         }
     }
 }

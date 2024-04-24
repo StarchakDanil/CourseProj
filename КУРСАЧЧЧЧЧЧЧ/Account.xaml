@@ -26,6 +26,8 @@
                 <ColumnDefinition/>
 
             </Grid.ColumnDefinitions>
+            <Frame x:Name="MainFrame"/>
+
             <Border Grid.Column="0" Background="#FF211C2F">
                 <Border.Resources>
                     <Style TargetType="{x:Type Border}">
@@ -34,11 +36,11 @@
                 </Border.Resources>
                 <Grid>
                     <TextBlock Text="Старчак Данил" FontSize="18" Foreground="White" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,79,0,0"/>
-                    <Ellipse Width="80" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,54,0,0" >
+                    <!--<Ellipse Width="80" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,54,0,0" >
                         <Ellipse.Fill>
                             <ImageBrush ImageSource="C:\Users\Старчак Данил\Downloads\icons8-аватар-50.png"  Stretch="UniformToFill"/>
                         </Ellipse.Fill>
-                    </Ellipse>
+                    </Ellipse>-->
                 </Grid>
             </Border>
             <Border Grid.Column="1" Background="#FF211C2F">
@@ -81,11 +83,11 @@
 
                 <Border Height="250" Grid.Row="0" Width="450">
                     <Grid>
-                        <Ellipse Height="200" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" >
+                        <!--<Ellipse Height="200" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" >
                             <Ellipse.Fill>
-                                <ImageBrush ImageSource="C:\Users\Старчак Данил\Downloads\icons8-пустой-круг-64 (1).png"  Stretch="UniformToFill"/>
+                                --><!--<ImageBrush ImageSource="C:\Users\Старчак Данил\Downloads\icons8-пустой-круг-64 (1).png"  Stretch="UniformToFill"/>--><!--
                             </Ellipse.Fill>
-                        </Ellipse>
+                        </Ellipse>-->
                         <TextBlock Text="34,568" FontSize="25" Height="40" Width="80" Margin="60,80,290,80" />
                         <TextBlock Text="Расходы в этом месяце" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0"/>
                     </Grid>

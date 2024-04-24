@@ -115,7 +115,7 @@
                 </Style>
             </Button.Resources>
             <StackPanel Orientation="Horizontal">
-                <Image Source="C:\Users\Старчак Данил\Downloads\send.png" Width="30" Height="30"/>
+                <!--<Image Source="C:\Users\Старчак Данил\Downloads\send.png" Width="30" Height="30"/>-->
             </StackPanel>
         </Button>
         <Border Grid.Row="0" Background="#FF211C2F" Height="120" Margin="0,0,0,180">
@@ -126,15 +126,17 @@
             </Border.Resources>
             <Grid>
                 <TextBlock Text="Оператор" FontSize="18" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="123,0,0,0"/>
-                <Ellipse Width="80" Height="80" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="38,0,0,0" >
+                <!--<Ellipse Width="80" Height="80" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="38,0,0,0" >
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="C:\Users\Старчак Данил\Downloads\icons8-аватар-50.png"  Stretch="UniformToFill"/>
+                        -->
+                <!--<ImageBrush ImageSource="C:\Users\Старчак Данил\Downloads\icons8-аватар-50.png"  Stretch="UniformToFill"/>-->
+                <!--
                     </Ellipse.Fill>
-                </Ellipse>
+                </Ellipse>-->
             </Grid>
         </Border>
         <Grid>
-            <ScrollViewer Height="300" Margin="0,150,0,-150" Width="1000" Background="Transparent" >
+            <ScrollViewer Margin="0,150,0,-188" Width="1000" Background="Transparent" >
                 <StackPanel x:Name="ChatMessages" />
             </ScrollViewer>
         </Grid>
